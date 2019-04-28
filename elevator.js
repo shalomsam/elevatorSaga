@@ -123,7 +123,7 @@
                 // check if floorNum exists in Queue, ignore if already present in queue
                 if (elevator.destinationQueue.indexOf(floorNum) === -1) {
                     goToFloor(elevator, floorNum);
-                    console.log(`Elevator-${elevator.elevatorNum} keypad pressed, going to floor ${floorNum}`);
+                    console.log(`%c Elevator-${elevator.elevatorNum} keypad pressed, going to floor ${floorNum}`, `color: ${elevator.logColor}`);
                 } else {
                     console.log(`%c Elevator-${elevator.elevatorNum} keypad pressed for ${floorNum}, ignoring since already present in queue`, `color: ${elevator.logColor}`);
                 }
