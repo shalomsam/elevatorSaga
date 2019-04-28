@@ -1,5 +1,5 @@
 # elevator-saga
-[Elevator Saga] (http://play.elevatorsaga.com) solutions for v1.6.5
+[Elevator Saga](http://play.elevatorsaga.com) solutions for v1.6.5
 
 Currently works upto challenge #9!
 
@@ -10,7 +10,9 @@ Each elevator also normally traverses to a floor when a floor button is pressed 
 
 Also has colored console logs for debugging.
 
-## Author
+
+Author
+------
 
 #### Shalom Sam
 + Checkout my <a href="https://shalomsam.com" title="Full Stack Web Developer, UI/UX Javascript Specialist" target="_blank">Full Stack Web Developer Website</a>
